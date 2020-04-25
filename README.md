@@ -21,7 +21,9 @@ I retrieved a total of 3,427 documents within the last 250 days from the physica
 Because my model contained many duplicate data, I optimized for the ROC AUC score. Both models returned scores of .98 so there was minimal overlap in all the predictions. From all my model iterations, I found the below terminology to have the highest impact based on their coefficients from my models.
 
 Top 5 Physical Therapy terms: 'dpt', 'patient', 'physical', 'therapist', 'weak’
+
 Top 5 Personal Training terms: 'client', 'fitness', 'nasm', 'trainer', 'training'
 
-The acronym "DPT" stands for Doctorate of Physical Therapy, the credential needed to become a physical therapist in the United States. These professionals are also doctors and treat "patients", so that term was also expected.
-"NASM" refers to the National Academy of Sports Medicine, the organization that handles personal training certifications. In addition, personal trainers have a varying degree of knowledge on fitness.
+The acronym "DPT" stands for Doctor of Physical Therapy, the title earned when a student completes a 3-year doctorate program and passes the NPTE.
+
+On the other hand, "NASM" refers to the National Academy of Sports Medicine, the organization that handles personal training certifications. In addition, personal trainers have a varying degree of knowledge in fitness.
